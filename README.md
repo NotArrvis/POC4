@@ -1,8 +1,8 @@
 
-# API de Fatos sobre Gatos - Documentação
+# API de Fatos sobre Gatos
 
 ## Descrição
-Este projeto é uma página web simples que exibe fatos aleatórios sobre gatos, obtidos através de uma API externa. A página usa HTML, CSS e JavaScript para criar uma interface minimalista com um fundo preto e texto centralizado em cor clara.
+Este projeto é uma página web simples que exibe fatos aleatórios sobre gatos, obtidos através de uma API externa. A página usa HTML, CSS e JavaScript para criar uma interface minimalista.
 
 ## Funcionalidades
 - Exibe um fato aleatório sobre gatos obtido da API meowfacts
