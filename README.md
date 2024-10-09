@@ -1,4 +1,4 @@
-# POC4
+
 # API de Fatos sobre Gatos - Documentação
 
 ## Descrição
