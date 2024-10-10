@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>POC-4</title>
+	</head>
+	<style>
+		body {
+			background-color: rgb(0, 0, 0);
+			margin: 2rem;
+		}
+		h1 {
+			color: rgb(240, 240, 230);
+			text-align: center;
+			font-family: 'Times New Roman', Times, serif;
+		}
+		#js {
+			display: flex;
+			justify-content: center;
+			height: 100vh;
+			align-items: center;
+		}
+	</style>
+	<body>
+		<section id="js"></section>
+	</body>
+	<script type="module">
+		async function fatoGato() {
+			let response = await fetch(`https://meowfacts.herokuapp.com/`);
+			let data = await response.json();
+			return data.data;
+		}
+
+		document.getElementById('js').innerHTML = `
+		    <h1>${await fatoGato()}</h1>
+		    `;
+	</script>
+</html>
